@@ -10,16 +10,17 @@ files:
   - source: /
     destination: /mnt/
 # end of custom script
-hooks:
-  BeforeInstall:
-    - location: scripts/install_dependencies
-      timeout: 300
-      runas: root
-    - location: scripts/start_server
-      timeout: 300
-      runas: root
-  ApplicationStop:
-    - location: scripts/stop_server
-      timeout: 300
-      runas: root
+# option to run scripts below
+#hooks:
+#  BeforeInstall:
+#    - location: scripts/install_dependencies
+#      timeout: 300
+#      runas: root
+#    - location: scripts/start_server
+#      timeout: 300
+#      runas: root
+#  ApplicationStop:
+#    - location: scripts/stop_server
+#      timeout: 300
+#      runas: root
 

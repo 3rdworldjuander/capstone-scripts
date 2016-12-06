@@ -1,9 +1,11 @@
 version: 0.0
 os: linux
-files:
-  - source: /index.html
-    destination: /var/www/html/
-# trying custom files and destination below
+# ORIGINAL
+#files:
+#  - source: /index.html
+#    destination: /var/www/html/
+# END OF ORIGINAL
+# trying custom files and destination below. Deploying to single server this time.
 files:
   - source: /
     destination: /mnt/

@@ -1,1 +1,0 @@
-Oamar script folder

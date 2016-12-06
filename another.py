@@ -6,3 +6,5 @@
 # trying renaming back to DemoFleet
 # starting desist group back up
 # oh no i ruined it!
+# got it working again by renaming back deployment group to DemoFleet
+# trying this time again with a single instance

@@ -5,7 +5,7 @@ files:
     destination: /var/www/html/
 # trying custom files and destination below
 files:
-  - source: source
+  - source: /
     destination: /mnt/
 # end of custom script
 hooks:

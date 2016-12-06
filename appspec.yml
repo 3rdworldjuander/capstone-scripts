@@ -3,6 +3,11 @@ os: linux
 files:
   - source: /index.html
     destination: /var/www/html/
+# trying custom files and destination below
+files:
+  - source: source
+    destination: /mnt/
+# end of custom script
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies

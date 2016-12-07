@@ -7,6 +7,11 @@ CapstoneServer
 ``` 
 mnt
 +-- raw_data 
+|   +-- Additional files
+|   +-- data
+|   +-- fromKaggle
+|   +-- fromLabrosa
+|   +-- test-scripts 
 +-- clean_data 
 +-- scripts 
 |   +-- test-scripts 
